@@ -1,0 +1,639 @@
+/* END Extra small devices (phones, 320px) and 768px */
+@media (max-width: 767px) {
+  body {
+    /* navigation */
+    /* END navigation */
+    /* slider */
+    /* END slider */
+    /* development*/
+    /* END development */
+    /* business-development */
+    /* END business-development */
+    /* projects */
+    /* END projects */
+    /* assurance */
+    /* END assurance */
+    /* proffibit-provides */
+    /* END proffibit-provides */
+    /* contacts */
+    /* END contacts */
+    /* footer */
+    /* END footer */
+  }
+  body header.header-main .header-content .header-email a {
+    font-size: 12px;
+  }
+  body header.header-main .header-content .header-number a {
+    font-size: 12px;
+  }
+  body header.header-main .header-content .social-list {
+    float: left;
+  }
+  body a.nav-toggle {
+    display: block !important;
+  }
+  body nav.top-nav {
+    position: fixed;
+    background-color: #7049ba;
+    display: none;
+    width: 100%;
+    top: 0;
+  }
+  body nav.top-nav .navigation-content {
+    margin: 0;
+    width: 100%;
+    padding: 0;
+  }
+  body nav.top-nav .navigation-content .navigation {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    float: left;
+  }
+  body nav.top-nav .navigation-content .navigation li {
+    width: 100%;
+    margin: 0;
+  }
+  body nav.top-nav .navigation-content .navigation li a {
+    padding: 12px;
+    background-color: #7049ba;
+    float: left;
+    width: 100%;
+    margin: 0;
+  }
+  body nav.top-nav .navigation-content .navigation li a:hover {
+    background-color: #7e57c2;
+  }
+  body nav.top-nav .close-nav {
+    display: block;
+  }
+  body #slider-wrap #slider .slide p.slider-title {
+    font-size: 30px;
+  }
+  body div.development {
+    /* development-content */
+    /* END development-content */
+  }
+  body div.development .development-content {
+    /* development-services */
+    /* END development-services */
+  }
+  body div.development .development-content .development-services .devices {
+    float: none;
+    margin: 0 auto 20px;
+    position: relative;
+    left: -100%;
+    width: 80%;
+  }
+  body div.development .development-content .development-services .devices img {
+    display: block;
+    height: auto;
+    width: 100%;
+  }
+  body div.development .development-content .development-services .dev-services {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    float: left;
+    right: -100%;
+    text-align: left;
+    overflow: hidden;
+  }
+  body div.development .development-content .development-services .dev-services .service-dev {
+    width: 80%;
+    float: none;
+    margin: 10px auto;
+  }
+  body div.development .development-content .development-services .dev-services .service-dev img {
+    display: inline-block;
+    width: 20%;
+    max-width: 97px;
+    height: auto;
+    float: left;
+    margin-right: 40px;
+  }
+  body div.development .development-content .development-services .dev-services .service-dev h4 {
+    font-size: 20px;
+  }
+  body div.development .development-content .development-services .dev-services .service-dev p {
+    float: right;
+    display: block;
+    width: 75%;
+    font-size: 14px;
+    margin-top: -25px;
+  }
+  body div.business-development {
+    /* business-development-content */
+    /* END business-development-content */
+  }
+  body div.business-development .business-development-content {
+    /* business-development-services */
+    /* END business-development-services */
+  }
+  body div.business-development .business-development-content .business-development-services .devices-businnes {
+    float: none;
+    margin: 0 auto;
+    width: 80%;
+  }
+  body div.business-development .business-development-content .business-development-services .devices-businnes img {
+    display: block;
+    height: auto;
+    width: 100%;
+  }
+  body div.business-development .business-development-content .business-development-services .dev-services-businnes {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    float: left;
+    right: -100%;
+    text-align: left;
+    overflow: hidden;
+  }
+  body div.business-development .business-development-content .business-development-services .dev-services-businnes .service-dev {
+    width: 80%;
+    float: none;
+    margin: 10px auto;
+  }
+  body div.business-development .business-development-content .business-development-services .dev-services-businnes .service-dev img {
+    display: inline-block;
+    width: 20%;
+    max-width: 97px;
+    height: auto;
+    float: left;
+    margin-right: 40px;
+  }
+  body div.business-development .business-development-content .business-development-services .dev-services-businnes .service-dev h4 {
+    font-size: 20px;
+  }
+  body div.business-development .business-development-content .business-development-services .dev-services-businnes .service-dev p {
+    float: right;
+    display: block;
+    width: 75%;
+    font-size: 14px;
+    margin-top: -25px;
+  }
+  body div.projects {
+    /* projects-content */
+    /* END projects-content */
+  }
+  body div.projects .projects-content {
+    /* our-projects */
+    /* END our-projects */
+  }
+  body div.projects .projects-content .our-projects {
+    float: left;
+    width: 50%;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 0.2%;
+    /* item-projects */
+  }
+  body div.projects .projects-content .our-projects .item-project {
+    width: 85%;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 5%;
+  }
+  body div.projects .projects-content .our-projects .item-project a .mask h3 {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-size: 13px;
+  }
+  body div.projects .projects-content .our-projects .item-project a .mask p {
+    margin: 0px auto;
+    width: 90%;
+    font-size: 10px;
+  }
+  body div.projects .projects-content .two-our-projects {
+    float: left;
+  }
+  body div.assurance {
+    /* assurance-content */
+    /* END assurance-content */
+  }
+  body div.assurance .assurance-content {
+    /* assurance-services */
+    /* END assurance-services */
+  }
+  body div.assurance .assurance-content .assurance-services .devices {
+    float: none;
+    margin: 0 auto 20px;
+    position: relative;
+    left: -100%;
+    width: 80%;
+  }
+  body div.assurance .assurance-content .assurance-services .devices img {
+    display: block;
+    height: auto;
+    width: 100%;
+  }
+  body div.assurance .assurance-content .assurance-services .dev-services {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    float: left;
+    right: -100%;
+    text-align: left;
+    overflow: hidden;
+  }
+  body div.assurance .assurance-content .assurance-services .dev-services .service-dev {
+    width: 80%;
+    float: none;
+    margin: 10px auto;
+  }
+  body div.assurance .assurance-content .assurance-services .dev-services .service-dev img {
+    display: inline-block;
+    width: 20%;
+    max-width: 97px;
+    height: auto;
+    float: left;
+    margin-right: 40px;
+  }
+  body div.assurance .assurance-content .assurance-services .dev-services .service-dev h4 {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  body div.assurance .assurance-content .assurance-services .dev-services .service-dev p {
+    float: right;
+    display: block;
+    width: 75%;
+    font-size: 14px;
+    margin-top: -25px;
+  }
+  body div.proffibit-provides .proffibit-provides-content {
+    width: 100%;
+    float: none;
+    clear: both;
+    font-size: 20px;
+  }
+  body div.proffibit-provides .proffibit-provides-content p {
+    margin: 5% auto;
+  }
+  body div.proffibit-provides .proffibit-provides-content-2 {
+    width: 100%;
+    float: none;
+  }
+  body div.contacts {
+    /* contacts-content */
+    /* END contacts-content */
+  }
+  body div.contacts .contacts-content {
+    /* block-offices */
+    /* END block-offices */
+    /* social-offices */
+    /* END social-offices */
+  }
+  body div.contacts .contacts-content .block-offices {
+    width: 100%;
+    overflow: hidden;
+    /* offices */
+    /* END offices */
+  }
+  body div.contacts .contacts-content .block-offices .offices {
+    margin: 20px auto;
+    width: 240px;
+    float: none;
+    text-align: left;
+  }
+  body div.contacts .contacts-content .block-offices .offices:nth-child(2) {
+    margin: 0 auto;
+  }
+  body div.contacts .contacts-content .social-offices {
+    float: left;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+    /* group-social ul*/
+    /* END group-social */
+  }
+  body div.contacts .contacts-content .social-offices .group-social {
+    width: 260px;
+    float: none;
+    margin: 5% auto 0;
+    padding: 0;
+    overflow: hidden;
+    display: block;
+  }
+  body footer.footer-bottom {
+    padding-bottom: 2%;
+    /* footer-content */
+    /* END footer-content */
+  }
+  body footer.footer-bottom .footer-content {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    /* llc */
+    /* END llc */
+    /* footer-nav */
+    /* END footer-nav */
+  }
+  body footer.footer-bottom .footer-content .llc {
+    width: 315px;
+    float: none;
+    color: #666;
+    margin: 0 auto;
+  }
+  body footer.footer-bottom .footer-content .footer-nav {
+    width: 100%;
+    float: none;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  body footer.footer-bottom .footer-content .footer-nav .navigation-content {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    font-style: normal;
+    text-align: center;
+    margin: 0 auto;
+  }
+  body footer.footer-bottom .footer-content .footer-nav .navigation-content .navigation {
+    padding: 0;
+    margin: 0 auto;
+    width: 320px;
+    overflow: hidden;
+  }
+  body footer.footer-bottom .footer-content .footer-nav .navigation-content .navigation li {
+    margin-left: 1px;
+    list-style-type: none;
+    float: left;
+    margin-right: 5px;
+  }
+  body footer.footer-bottom .footer-content .footer-nav .navigation-content .navigation li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #999;
+  }
+  body footer.footer-bottom .footer-content .footer-nav .navigation-content .navigation li a:hover {
+    color: white;
+  }
+}
+/* END Extra small devices (phones, 320px) and 768px */
+/* Small devices (tablets, 768px and 992px) */
+@media only screen and (min-width: 767px) and (max-width: 992px) {
+  body {
+    /* navigation */
+    /* END navigation */
+    /* development*/
+    /* END development */
+    /* business-development */
+    /* END business-development */
+    /* projects */
+    /* END projects */
+    /* assurance */
+    /* END assurance */
+    /* proffibit-provides */
+    /* END proffibit-provides */
+    /* contacts */
+    /* END contacts */
+  }
+  body a.nav-toggle {
+    display: block !important;
+  }
+  body nav.top-nav {
+    position: fixed;
+    background-color: #7049ba;
+    display: none;
+    width: 100%;
+    top: 0;
+  }
+  body nav.top-nav .navigation-content {
+    margin: 0;
+    width: 100%;
+    padding: 0;
+  }
+  body nav.top-nav .navigation-content .navigation {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    float: left;
+  }
+  body nav.top-nav .navigation-content .navigation li {
+    width: 100%;
+    margin: 0;
+  }
+  body nav.top-nav .navigation-content .navigation li a {
+    padding: 12px;
+    background-color: #7049ba;
+    float: left;
+    width: 100%;
+    margin: 0;
+  }
+  body nav.top-nav .navigation-content .navigation li a:hover {
+    background-color: #7e57c2;
+  }
+  body nav.top-nav .close-nav {
+    display: block;
+  }
+  body div.development {
+    /* development-content */
+    /* END development-content */
+  }
+  body div.development .development-content {
+    /* development-services */
+    /* END development-services */
+  }
+  body div.development .development-content .development-services .devices {
+    float: none;
+    margin: 0 auto 20px;
+    position: relative;
+    left: -100%;
+    width: 80%;
+  }
+  body div.development .development-content .development-services .devices img {
+    display: block;
+    height: auto;
+    width: 100%;
+  }
+  body div.development .development-content .development-services .dev-services {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    float: left;
+    right: -100%;
+    text-align: left;
+    overflow: hidden;
+  }
+  body div.development .development-content .development-services .dev-services .service-dev {
+    width: 80%;
+    float: none;
+    margin: 10px auto;
+  }
+  body div.development .development-content .development-services .dev-services .service-dev img {
+    float: left;
+    margin-right: 40px;
+  }
+  body div.business-development {
+    /* business-development-content */
+    /* END business-development-content */
+  }
+  body div.business-development .business-development-content {
+    /* business-development-services */
+    /* END business-development-services */
+  }
+  body div.business-development .business-development-content .business-development-services .devices-businnes {
+    float: none;
+    margin: 0 auto;
+    width: 80%;
+  }
+  body div.business-development .business-development-content .business-development-services .devices-businnes img {
+    display: block;
+    height: auto;
+    width: 100%;
+  }
+  body div.business-development .business-development-content .business-development-services .dev-services-businnes {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    float: left;
+    right: -100%;
+    text-align: left;
+    overflow: hidden;
+  }
+  body div.business-development .business-development-content .business-development-services .dev-services-businnes .service-dev {
+    width: 80%;
+    float: none;
+    margin: 10px auto;
+  }
+  body div.business-development .business-development-content .business-development-services .dev-services-businnes .service-dev img {
+    float: left;
+    margin-right: 40px;
+  }
+  body div.projects {
+    /* projects-content */
+    /* END projects-content */
+  }
+  body div.projects .projects-content {
+    /* our-projects */
+    /* END our-projects */
+  }
+  body div.projects .projects-content .our-projects {
+    float: left;
+    width: 50%;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 0.2%;
+    /* item-projects */
+  }
+  body div.projects .projects-content .our-projects .item-project {
+    width: 85%;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 5%;
+  }
+  body div.projects .projects-content .two-our-projects {
+    float: right;
+  }
+  body div.assurance {
+    /* assurance-content */
+    /* END assurance-content */
+  }
+  body div.assurance .assurance-content {
+    /* assurance-services */
+    /* END assurance-services */
+  }
+  body div.assurance .assurance-content .assurance-services .devices {
+    float: none;
+    margin: 0 auto 20px;
+    position: relative;
+    left: -100%;
+    width: 80%;
+  }
+  body div.assurance .assurance-content .assurance-services .devices img {
+    display: block;
+    height: auto;
+    width: 100%;
+  }
+  body div.assurance .assurance-content .assurance-services .dev-services {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    float: left;
+    right: -100%;
+    text-align: left;
+    overflow: hidden;
+  }
+  body div.assurance .assurance-content .assurance-services .dev-services .service-dev {
+    width: 80%;
+    float: none;
+    margin: 10px auto;
+  }
+  body div.assurance .assurance-content .assurance-services .dev-services .service-dev img {
+    float: left;
+    margin-right: 40px;
+  }
+  body div.assurance .assurance-content .assurance-services .dev-services .service-dev h4 {
+    margin-top: 35px;
+  }
+  body div.proffibit-provides .proffibit-provides-content {
+    width: 100%;
+    float: none;
+    clear: both;
+  }
+  body div.proffibit-provides .proffibit-provides-content p {
+    margin: 5% auto;
+  }
+  body div.proffibit-provides .proffibit-provides-content-2 {
+    width: 100%;
+    float: none;
+  }
+  body div.contacts {
+    /* contacts-content */
+    /* END contacts-content */
+  }
+  body div.contacts .contacts-content {
+    /* block-offices */
+    /* END block-offices */
+    /* social-offices */
+    /* END social-offices */
+  }
+  body div.contacts .contacts-content .block-offices {
+    width: 100%;
+    /* offices */
+    /* END offices */
+  }
+  body div.contacts .contacts-content .block-offices .offices {
+    width: 40%;
+    float: left;
+    text-align: left;
+  }
+  body div.contacts .contacts-content .social-offices {
+    float: left;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    /* group-social ul*/
+    /* END group-social */
+  }
+  body div.contacts .contacts-content .social-offices .group-social {
+    float: left;
+    margin-top: 40px;
+    padding: 0;
+  }
+}
+/* END Small devices (tablets, 768px and 992px) */
+/* Medium devices (desktops, 992px and 1200px) */
+@media only screen and (min-width: 992px) and (max-width: 1320px) {
+  body {
+    /* navigation */
+  }
+  body nav.top-nav {
+    display: block !important;
+  }
+}
+/* END Medium devices (desktops, 992px and 1200px) */
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1320px) {
+  body {
+    /* navigation */
+  }
+  body nav.top-nav {
+    display: block !important;
+  }
+}
+/* END Large devices (large desktops, 1200px and up) */

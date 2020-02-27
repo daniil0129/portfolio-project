@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Handyhilfe</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/media-query.css">
+        <link rel="stylesheet" href="css/normalize.css"/>
+        <link rel="stylesheet" href="css/bootstrap-3.3.5-dist/css/bootstrap.css"/>
+        <link rel="stylesheet" href="css/font-awesome-4.4.0/css/font-awesome.min.css"/>
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <!--[if IE]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+
+        <!--header-->
+        <header>
+            <!--header-main-->
+            <div class="container-fluid header-main">
+                <div class="row">
+
+                   <!--Logo-->
+                    <div class="col-lg-2 col-lg-offset-1 col-md-2 col-md-offset-1 col-sm-8 col-xs-6 logo">
+                        <img src="img/logo.png" alt="handyhilfe">
+                    </div><!--END logo-->
+
+                    <!--Sign in-->
+                    <div class="col-lg-1 col-lg-offset-4 col-md-1 col-md-offset-3 sign-in">
+                        <p><a href="#"><i class="fa fa-sign-in fa-2x"></i><span>&nbsp; Sign in</span></a></p>
+                    </div>
+
+                    <div class="col-lg-1 col-md-1 sign-in">
+                        <p><a href="#"><i class="fa fa-cog fa-2x"></i><span>&nbsp;Settings</span></a></p>
+                    </div><!--END sign in-->
+
+                    <!--Check-out-->
+                    <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4 check-out">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 check-price">
+                                <span>945.99&euro;</span>
+                                <span>2 items</span>
+                            </div>
+                            <div class="col-lg-6 col-md-4 col-sm-6 col-xs-6 cart">
+                                <img src="img/cart.png" alt="cart mobile">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12">
+                                <a href="#" class="checkout-button">check out</a>
+                            </div>
+                        </div>
+                    </div><!--END check-out-->
+                </div>
+            </div><!--END header-main-->
+        </header><!--END header-->
+
+        <!-- Navigation -->
+        <nav>
+            <div role="navigation" class="navbar navbar-default">
+
+                <!-- navbar_form (Hidden)-->
+                <form name="search" action="#" method="get" class="form-hidden">
+                    <input type="text" placeholder="Search" size="27" class="search-all">
+                    <button type="submit"><i class="fa fa-search fa-lg"></i></button>
+                </form><!--END navbar_form (Hidden) -->
+
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <!-- Collection of nav links, forms, and other content for toggling -->
+                <div id="navbarCollapse" class="collapse navbar-collapse col-lg-11 col-lg-offset-1 col-md-offset-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#"><i class="fa fa-home fa-lg"></i>&nbsp;Home <span class="sr-only">(current)</span></a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-mobile-phone fa-lg"></i>&nbsp;Products <span class="caret"></span></a>
+                            <ul role="menu" class="dropdown-menu">
+                                <li><a href="#">Windows</a></li>
+                                <li><a href="#">Mac OS</a></li>
+                                <li><a href="#">Linux</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Другие системы</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-gears fa-lg"></i>&nbsp;Service <span class="caret"></span></a>
+                            <ul role="menu" class="dropdown-menu">
+                                <li><a href="#">Windows</a></li>
+                                <li><a href="#">Mac OS</a></li>
+                                <li><a href="#">Linux</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Другие системы</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <div class="col-lg-5 col-lg-offset-2 nav-form">
+
+                        <!--navbar_form-->
+                        <form name="search" action="#" method="get" class="navbar-form">
+                            <input type="text" placeholder="Search" size="27" autofocus class="nav-input">
+                            <button type="submit"><i class="fa fa-search fa-lg"></i></button>
+                        </form><!--END navbar_form-->
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </nav><!-- END Navigation -->
+
+
+        <!-- Shop-now-slider -->
+        <div class="slider-part">
+
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+
+                        <!-- item for first slide -->
+                        <div class="container-fluid item active slide-1">
+                            <div class="row">
+
+                                <!-- Content-slide -->
+                                <div class="content-slide">
+
+                                    <section>
+                                        <h2>Water Damaged?</h2>
+                                        <h1>Don't Worry</h1>
+                                        <p>Our very experienced team is here to help and will do
+                                            their best, to successfully repair your water damaged
+                                            device by special techniques!</p>
+                                        <a href="#" class="go-shop">SHOP NOW!</a>
+                                    </section>
+
+                                    <div class="slider-img">
+                                        <img src="img/banner/banner-1.png" alt="Device by special techniques">
+                                    </div>
+
+                                </div><!-- END Content-slide -->
+
+                            </div>
+
+                        </div><!-- END item for first slide -->
+
+
+                        <!-- item for second slide -->
+                        <div class="container-fluid item slide-2">
+                            <div class="row">
+
+                                <!-- Content-slide -->
+                                <div class="content-slide">
+
+                                    <section>
+                                        <h1>Screen is broken</h1>
+                                        <h2>or any other errors?</h2>
+                                        <p>Visit our Repair Service Section and send us your
+                                            faulty device.</p>
+                                        <a href="#" class="go-shop">SHOP NOW!</a>
+                                    </section>
+
+                                    <div class="slider-img">
+                                        <img src="img/banner/banner-2.png" alt="Send us your
+                                            faulty device">
+                                    </div>
+
+                                </div><!-- END Content-slide -->
+
+                            </div>
+
+                        </div><!-- END item for second slide -->
+
+                        <!-- item for third slide -->
+                        <div class="container-fluid item slide-3">
+                            <div class="row">
+
+                                <!-- Content-slide -->
+                                <div class="content-slide">
+
+                                    <section>
+                                        <h1>Now it’s easy!</h1>
+                                        <p>Repair your mobile yourself & choose high quality
+                                            spare parts from our big collection.</p>
+                                        <a href="#" class="go-shop">SHOP NOW!</a>
+                                    </section>
+
+                                    <div class="slider-img">
+                                        <!--<img src="img/banner/banner-3.png" alt="">-->
+                                    </div>
+                                    <img src="img/banner/banner-3.png" alt="Repair your mobile yourself">
+
+                                </div><!-- END Content-slide -->
+
+                            </div>
+
+                        </div><!-- END item for third slide -->
+
+                        <!-- item for fourth slide -->
+                        <div class="container-fluid item slide-4">
+                            <div class="row">
+
+                                <!-- Content-slide -->
+                                <div class="content-slide">
+
+                                    <section>
+                                            <h1>hanyhilfe
+                                                is different!
+                                            </h1>
+                                        <p>We only use original and best quality parts for our
+                                            repairs. Convince yourself from our fast and high
+                                            quality repair service.</p>
+                                        <a href="#" class="go-shop">SHOP NOW!</a>
+                                    </section>
+
+                                    <div class="slider-img">
+
+                                    </div>
+                                    <img src="img/banner/banner-4.png" alt="fast and high quality repair service">
+
+                                </div><!-- END Content-slide -->
+
+                            </div>
+
+                        </div><!-- END item for fourth slide -->
+
+                    </div>
+                    <!-- Slider-controls buttom -->
+                    <div class="slider-controls">
+                        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div><!-- Slider-controls buttom -->
+                </div>
+
+        </div><!-- END Shop-now-slider -->
+
+        <!-- Sellers -->
+        <div class="container-fluid sellers section-gray">
+            <div class="row">
+
+                <div class="sellers-content">
+
+                    <div class="tabs">
+                        <ul class="nav-tabs">
+                            <li class="active"><a href="#tab-1" data-toggle="tab">New Arrivals</a></li>
+                            <li><a href="#tab-2" data-toggle="tab">Popular</a></li>
+                            <li><a href="#tab-3" data-toggle="tab">Best Sellers</a></li>
+                        </ul>
+
+                        <div class="tab-content">
+
+                            <!-- TAB 1 -->
+                            <div class="tab-pane fade in active" id="tab-1">
+
+                                <!-- Sel and mask for sel (TAB-1) -->
+                                <div class="sel sel-first">
+
+                                    <div class="sel-img">
+                                        <img src="img/sellers/mob-5.png" alt="iphone mobile 6">
+                                    </div>
+
+                                    <div class="sel-info">
+
+                                        <div class="sel-model">
+                                            <span>LCD Assembly Black<br></span>
+                                            <span>iPhone 6</span>
+                                        </div>
+                                        <div class="sel-price">
+                                            <span>991,35&euro;</span>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="mask">
+                                        <a href="#" class="info"><img src="img/sellers/cart-small.png" alt="iphone mobile 6"/>&nbsp; &nbsp;&nbsp;&nbsp; ADD TO CART</a>
+                                        <a href="#" class="info"><img src="img/sellers/view.png" alt="iphone mobile 6"/>&nbsp; VIEW</a>
+                                    </div>
+
+                                </div><!-- END Sel and mask for sel (TAB-1)-->
+
+                                <!-- Sel and mask for sel (TAB-1)-->
+                                <div class="sel sel-first">
+
+                                    <div class="sel-img">
+                                        <img src="img/sellers/mob-2.png" alt="iphone mobile 6">
+                                    </div>
+
+                                    <div class="sel-info">
+
+                                        <div class="sel-model">
+                                            <span>LCD Assembly Black<br></span>
+                                            <span>iPhone 6</span>
+                                        </div>
+                                        <div class="sel-price">
+                                            <span>549,15&euro;</span>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="mask">
+                                        <a href="#" class="info"><img src="img/sellers/cart-small.png" alt="iphone mobile 6"/>&nbsp; &nbsp;&nbsp;&nbsp; ADD TO CART</a>
+                                        <a href="#" class="info"><img src="img/sellers/view.png" alt="iphone mobile 6"/>&nbsp; VIEW</a>
+                                    </div>
+
+                                </div><!-- END Sel and mask for sel (TAB-1) -->
+
+                                <!-- Sel and mask for sel (TAB-1) -->
+                                <div class="sel sel-first">
+
+                                    <div class="sel-img">
+                                        <img src="img/sellers/mob-4.png" alt="iphone mobile 6">
+                                    </div>
+
+                                    <div class="sel-info">
+
+                                        <div class="sel-model">
+                                            <span>LCD Assembly Black<br></span>
+                                            <span>iPhone 6</span>
+                                        </div>
+                                        <div class="sel-price">
+                                            <span>1155,55&euro;</span>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="mask">
+                                        <a href="#" class="info"><img src="img/sellers/cart-small.png" alt="iphone mobile 6"/>&nbsp; &nbsp;&nbsp;&nbsp; ADD TO CART</a>
+                                        <a href="#" class="info"><img src="img/sellers/view.png" alt="iphone mobile 6"/>&nbsp; VIEW</a>
+                                    </div>
+
+                                </div><!-- END Sel and mask for sel (TAB-1) -->
+
+                                <!-- Sel and mask for sel (TAB-1) -->
+                                <div class="sel sel-first">
+
+                                    <div class="sel-img">
+                                        <img src="img/sellers/mob-3.png" alt="iphone mobile 6">
+                                    </div>
+
+                                    <div class="sel-info">
+
+                                        <div class="sel-model">
+                                            <span>LCD Assembly Black<br></span>
+                                            <span>iPhone 6</span>
+                                        </div>
+                                        <div class="sel-price">
+                                            <span>600,20&euro;</span>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="mask">
+                                        <a href="#" class="info"><img src="img/sellers/cart-small.png" alt="iphone mobile 6"/>&nbsp; &nbsp;&nbsp;&nbsp; ADD TO CART</a>
+                                        <a href="#" class="info"><img src="img/sellers/view.png" alt="iphone mobile 6"/>&nbsp; VIEW</a>
+                                    </div>
+
+                                </div><!-- END Sel and mask for sel (TAB-1) -->
+
+                            </div>
+                            <!-- END TAB 1 -->
+
+                            <!-- TAB 2 -->
+                            <div class="tab-pane fade in" id="tab-2">
+
+                                <!-- Sel and mask for sel (TAB-2) -->
+                                <div class="sel sel-first">
+
+                                    <div class="sel-img">
+                                        <img src="img/sellers/mob-3.png" alt="iphone mobile 6">
+                                    </div>
+
+                                    <div class="sel-info">
+
+                                        <div class="sel-model">
+                                            <span>LCD Assembly Black<br></span>
+                                            <span>iPhone 6</span>
+                                        </div>
+                                        <div class="sel-price">
+                                            <span>991,35&euro;</span>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="mask">
+                                        <a href="#" class="info"><img src="img/sellers/cart-small.png" alt="iphone mobile 6"/>&nbsp; &nbsp;&nbsp;&nbsp; ADD TO CART</a>
+                                        <a href="#" class="info"><img src="img/sellers/view.png" alt="iphone mobile 6"/>&nbsp; VIEW</a>
+                                    </div>
+
+                                </div><!-- END Sel and mask for sel (TAB-2) -->
+
+                                <!-- Sel and mask for sel-->
+                                <div class="sel sel-first">
+
+                                    <div class="sel-img">
+                                        <img src="img/sellers/mob-2.png" alt="iphone mobile 6">
+                                    </div>
+
+                                    <div class="sel-info">
+
+                                        <div class="sel-model">
+                                            <span>LCD Assembly Black<br></span>
+                                            <span>iPhone 6</span>
+                                        </div>
+                                        <div class="sel-price">
+                                            <span>549,15&euro;</span>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="mask">
+                                        <a href="#" class="info"><img src="img/sellers/cart-small.png" alt="iphone mobile 6"/>&nbsp; &nbsp;&nbsp;&nbsp; ADD TO CART</a>
+                                        <a href="#" class="info"><img src="img/sellers/view.png" alt="iphone mobile 6"/>&nbsp; VIEW</a>
+                                    </div>
+
+                                </div><!-- END Sel and mask for sel (TAB-2) -->
+
+                                <!-- Sel and mask for sel (TAB-2) -->
+                                <div class="sel sel-first">
+
+                                    <div class="sel-img">
+                                        <img src="img/sellers/mob-4.png" alt="iphone mobile 6">
+                                    </div>
+
+                                    <div class="sel-info">
+
+                                        <div class="sel-model">
+                                            <span>LCD Assembly Black<br></span>
+                                            <span>iPhone 6</span>
+                                        </div>
+                                        <div class="sel-price">
+                                            <span>1155,55&euro;</span>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="mask">
+                                        <a href="#" class="info"><img src="img/sellers/cart-small.png" alt="iphone mobile 6"/>&nbsp; &nbsp;&nbsp;&nbsp; ADD TO CART</a>
+                                        <a href="#" class="info"><img src="img/sellers/view.png" alt="iphone mobile 6"/>&nbsp; VIEW</a>
+                                    </div>
+
+                                </div><!-- END Sel and mask for sel (TAB-2) -->
+
+                                <!-- Sel and mask for sel (TAB-2) -->
+                                <div class="sel sel-first">
+
+                                    <div class="sel-img">
+                                        <img src="img/sellers/mob-5.png" alt="iphone mobile 6">
+                                    </div>
+
+                                    <div class="sel-info">
+
+                                        <div class="sel-model">
+                                            <span>LCD Assembly Black<br></span>
+                                            <span>iPhone 6</span>
+                                        </div>
+                                        <div class="sel-price">
+                                            <span>600,20&euro;</span>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="mask">
+                                        <a href="#" class="info"><img src="img/sellers/cart-small.png" alt="iphone mobile 6"/>&nbsp; &nbsp;&nbsp;&nbsp; ADD TO CART</a>
+                                        <a href="#" class="info"><img src="img/sellers/view.png" alt="iphone mobile 6"/>&nbsp; VIEW</a>
+                                    </div>
+
+                                </div><!-- END Sel and mask for sel (TAB-2) -->
+
+                            </div>
+                            <!-- END TAB 2 -->
+
+                            <!-- TAB 3 -->
+                            <div class="tab-pane fade in" id="tab-3">
+
+                                <!-- Sel and mask for sel (TAB-3) -->
+                                <div class="sel sel-first">
+
+                                    <div class="sel-img">
+                                        <img src="img/sellers/mob-4.png" alt="iphone mobile 6">
+                                    </div>
+
+                                    <div class="sel-info">
+
+                                        <div class="sel-model">
+                                            <span>LCD Assembly Black<br></span>
+                                            <span>iPhone 6</span>
+                                        </div>
+                                        <div class="sel-price">
+                                            <span>991,35&euro;</span>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="mask">
+                                        <a href="#" class="info"><img src="img/sellers/cart-small.png" alt="iphone mobile 6"/>&nbsp; &nbsp;&nbsp;&nbsp; ADD TO CART</a>
+                                        <a href="#" class="info"><img src="img/sellers/view.png" alt="iphone mobile 6"/>&nbsp; VIEW</a>
+                                    </div>
+
+                                </div><!-- END Sel and mask for sel (TAB-3) -->
+
+                                <!-- Sel and mask for sel (TAB-3)-->
+                                <div class="sel sel-first">
+
+                                    <div class="sel-img">
+                                        <img src="img/sellers/mob-3.png" alt="iphone mobile 6">
+                                    </div>
+
+                                    <div class="sel-info">
+
+                                        <div class="sel-model">
+                                            <span>LCD Assembly Black<br></span>
+                                            <span>iPhone 6</span>
+                                        </div>
+                                        <div class="sel-price">
+                                            <span>549,15&euro;</span>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="mask">
+                                        <a href="#" class="info"><img src="img/sellers/cart-small.png" alt="iphone mobile 6"/>&nbsp; &nbsp;&nbsp;&nbsp; ADD TO CART</a>
+                                        <a href="#" class="info"><img src="img/sellers/view.png" alt="iphone mobile 6"/>&nbsp; VIEW</a>
+                                    </div>
+
+                                </div><!-- END Sel and mask for sel (TAB-3) -->
+
+                                <!-- Sel and mask for sel-->
+                                <div class="sel sel-first">
+
+                                    <div class="sel-img">
+                                        <img src="img/sellers/mob-2.png" alt="iphone mobile 6">
+                                    </div>
+
+                                    <div class="sel-info">
+
+                                        <div class="sel-model">
+                                            <span>LCD Assembly Black<br></span>
+                                            <span>iPhone 6</span>
+                                        </div>
+                                        <div class="sel-price">
+                                            <span>1155,55&euro;</span>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="mask">
+                                        <a href="#" class="info"><img src="img/sellers/cart-small.png" alt="iphone mobile 6"/>&nbsp; &nbsp;&nbsp;&nbsp; ADD TO CART</a>
+                                        <a href="#" class="info"><img src="img/sellers/view.png" alt="iphone mobile 6"/>&nbsp; VIEW</a>
+                                    </div>
+
+                                </div><!-- END Sel and mask for sel (TAB-3) -->
+
+                                <!-- Sel and mask for sel (TAB-3) -->
+                                <div class="sel sel-first">
+
+                                    <div class="sel-img">
+                                        <img src="img/sellers/mob-5.png" alt="iphone mobile 6">
+                                    </div>
+
+                                    <div class="sel-info">
+
+                                        <div class="sel-model">
+                                            <span>LCD Assembly Black<br></span>
+                                            <span>iPhone 6</span>
+                                        </div>
+                                        <div class="sel-price">
+                                            <span>600,20&euro;</span>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="mask">
+                                        <a href="#" class="info"><img src="img/sellers/cart-small.png" alt="iphone mobile 6"/>&nbsp; &nbsp;&nbsp;&nbsp; ADD TO CART</a>
+                                        <a href="#" class="info"><img src="img/sellers/view.png" alt="iphone mobile 6"/>&nbsp; VIEW</a>
+                                    </div>
+
+                                </div><!-- END Sel and mask for sel (TAB-3) -->
+
+                            </div>
+                            <!-- END TAB 3 -->
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div><!-- END Sellers -->
+
+
+        <!-- Services -->
+        <div class="container-fluid services">
+            <div class="row">
+
+                <!-- Services-content -->
+                <div class="services-content">
+
+                    <div class="block-services">
+
+                        <div class="img-service">
+                            <a href="#"><img src="img/services/service-1111.png" alt="FREE SHIPPING"/></a>
+                        </div>
+                        <h3>FREE SHIPPING</h3>
+                        <p>Vivamus elementum semper nisi. Aenean
+                            vulputate eleifend tellus. Aenean leo ligula,
+                            porttitor eu, consequat vitae, eleifend ac, enim.</p>
+
+                    </div>
+
+                    <div class="block-services">
+
+                        <div class="img-service">
+                            <a href="#"><img src="img/services/service-2.png" alt="FREE SHIPPING"/></a>
+                        </div>
+                        <h3>FREE SHIPPING</h3>
+                        <p>Vivamus elementum semper nisi. Aenean
+                            vulputate eleifend tellus. Aenean leo ligula,
+                            porttitor eu, consequat vitae, eleifend ac, enim.</p>
+
+                    </div>
+
+                    <div class="block-services">
+
+                        <div class="img-service">
+                            <a href="#"><img src="img/services/service-3.png" alt="FREE SHIPPING"/></a>
+                        </div>
+                        <h3>EARN COUPONS</h3>
+                        <p>Vivamus elementum semper nisi. Aenean
+                            vulputate eleifend tellus. Aenean leo ligula,
+                            porttitor eu, consequat vitae, eleifend ac, enim.</p>
+
+                    </div>
+
+                </div><!-- END Services-content -->
+
+            </div>
+        </div><!-- END Services -->
+
+
+
+        <!-- News -->
+        <div class="container-fluid news section-gray">
+            <div class="row">
+
+                <h2>Latest News & Blog</h2>
+
+                <!-- News-content -->
+                <div class="news-content">
+
+                    <!-- new 1 -->
+                    <div class="new">
+
+                        <!-- img-new -->
+                        <div class="img-new">
+                            <img src="img/news/news-1.png" alt="Aenean vulputate"/>
+                        </div><!-- END img-new -->
+
+                        <!-- news-description -->
+                        <div class="news-description">
+                            <article>
+                                <header>
+                                    <h4>Aenean vulputate</h4>
+                                    <p>by <a href="#">John Green | December 05, 2014</a></p>
+                                </header>
+                                <p>Aenean vulputate eleifend tellus. Aenean
+                                    leo ligula, porttitor eu, consequat vitae,
+                                    eleifend ac, enim.
+                                    Aliquam lorem ante. <a href="#">Read Full</a></p>
+                                <footer>
+                                    <p><a href="#">4 comments</a></p>
+                                </footer>
+                            </article>
+                        </div><!-- END news-description -->
+                    </div><!--END new 1 -->
+
+                    <!-- new 1 -->
+                    <div class="new">
+
+                        <!-- img-new -->
+                        <div class="img-new">
+                            <img src="img/news/news-2.png" alt="Aenean vulputate"/>
+                        </div><!-- END img-new -->
+
+                        <!-- news-description -->
+                        <div class="news-description">
+                            <article>
+                                <header>
+                                    <h4>Aenean vulputate</h4>
+                                    <p>by <a href="#">John Green | December 05, 2014</a></p>
+                                </header>
+                                <p>Aenean vulputate eleifend tellus. Aenean
+                                    leo ligula, porttitor eu, consequat vitae,
+                                    eleifend ac, enim.
+                                    Aliquam lorem ante. <a href="#">Read Full</a></p>
+                                <footer>
+                                    <p><a href="#">4 comments</a></p>
+                                </footer>
+                            </article>
+                        </div><!-- END news-description -->
+                    </div><!--END new 1 -->
+
+                    <!-- new 3 -->
+                    <div class="new">
+
+                        <!-- img-new -->
+                        <div class="img-new">
+                            <img src="img/news/news-3.png" alt="Aenean vulputate"/>
+                        </div><!-- END img-new -->
+
+                        <!-- news-description -->
+                        <div class="news-description">
+                            <article>
+                                <header>
+                                    <h4>Aenean vulputate</h4>
+                                    <p>by <a href="#">John Green | December 05, 2014</a></p>
+                                </header>
+                                <p>Aenean vulputate eleifend tellus. Aenean
+                                    leo ligula, porttitor eu, consequat vitae,
+                                    eleifend ac, enim.
+                                    Aliquam lorem ante. <a href="#">Read Full</a></p>
+                                <footer>
+                                    <p><a href="#">4 comments</a></p>
+                                </footer>
+                            </article>
+                        </div><!-- END news-description -->
+                    </div><!-- END new 3 -->
+
+                    <!-- new 4 -->
+                    <div class="new">
+
+                        <!-- img-new -->
+                        <div class="img-new">
+                            <img src="img/news/news-4.png" alt="Aenean vulputate"/>
+                        </div><!-- END img-new -->
+
+                        <!-- news-description -->
+                        <div class="news-description">
+                            <article>
+                                <header>
+                                    <h4>Aenean vulputate</h4>
+                                    <p>by <a href="#">John Green | December 05, 2014</a></p>
+                                </header>
+                                <p>Aenean vulputate eleifend tellus. Aenean
+                                    leo ligula, porttitor eu, consequat vitae,
+                                    eleifend ac, enim.
+                                    Aliquam lorem ante. <a href="#">Read Full</a></p>
+                                <footer>
+                                    <p><a href="#">4 comments</a></p>
+                                </footer>
+                            </article>
+                        </div><!-- END news-description -->
+                    </div><!-- END new 4 -->
+
+                </div><!-- END News-content -->
+
+
+            </div>
+        </div><!-- END News -->
+
+
+
+        <!-- Footer -->
+        <div class="container-fluid main-footer">
+            <div class="row">
+
+                <!-- footer-content -->
+                <div class="footer-content">
+
+                    <!-- footer-logo -->
+                    <div class="column-foot footer-logo">
+                        <img src="img/footer-logo.png" alt="Aenean vulputate"/>
+                        <p>Aenean vulputate eleifend tellus. Aenean leo
+                            ligula, porttitor eu, consequat vitae, eleifend ac,
+                            enim. </p>
+                    </div>
+                    <!-- END footer-logo -->
+
+                    <!-- footer-information -->
+                    <div class="column-foot footer-information">
+                        <h4>Information</h4>
+                        <a href="#">About Us</a><br>
+                        <a href="#">Blog & News</a><br>
+                        <a href="#">Coupons</a><br>
+                        <a href="#">Impressum</a><br>
+                        <a href="#">AGB</a><br>
+                    </div><!-- END footer-information -->
+
+                    <!-- footer-support -->
+                    <div class="column-foot footer-support">
+                        <h4>Support</h4>
+                        <a href="#">FAQ</a><br>
+                        <a href="#">Contact Us</a>
+                    </div><!-- END footer-support -->
+
+                    <!-- footer-newsletter -->
+                    <div class="column-foot footer-newsletter">
+                        <h4>Newsletter</h4>
+                        <p>Join thousands of other people
+                            subscribe to our news</p>
+
+                        <!-- footer-form -->
+                        <form class="footer-form">
+                            <input type="text" size="24" placeholder="Enter your email">
+                            <button type="submit"><i class="fa fa-play fa-1x"></i></button>
+                        </form><!-- END footer-form -->
+
+                        <!-- social-icons for footer -->
+                        <div class="social-icons">
+                            <a class="social-icon facebook" href=""></a>
+                            <a class="social-icon twitter" href=""></a>
+                            <a class="social-icon google-plus" href=""></a>
+                            <a class="social-icon pinterest" href=""></a>
+                        </div><!-- END social-icons for footer -->
+
+                    </div><!-- END footer-newsletter -->
+
+                    <!-- footer-payment -->
+                    <div class="column-foot footer-payment">
+                        <h4>Payment Methods</h4>
+                        <div class="payment-icons">
+                            <a class="payment-icon mastercard" href=""></a>
+                            <a class="payment-icon visa" href=""></a>
+                            <a class="payment-icon bank" href=""></a><br/>
+                            <a class="payment-icon sofort" href=""></a>
+                            <a class="payment-icon bitcoin" href=""></a>
+                        </div>
+                    </div><!-- END footer-payment -->
+
+                </div><!-- END footer-content -->
+            </div>
+
+            <div class="row">
+
+                <!-- footer-bottom -->
+                <div class="container-fluid footer-bottom">
+                    <p>© 2015 - Handyhilfe . All Rights Reserved</p>
+                </div><!-- END footer-bottom -->
+
+            </div>
+
+
+        </div><!-- END Footer -->
+
+
+        <script src="css/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+        <!--<script src="js/scroller.js"></script>-->
+        <script src="js/slider.js"></script>
+        <script src="js/tabs.js"></script>
+        <script src="js/jquery.scrollbox.js"></script>
+    </body>
+</html>

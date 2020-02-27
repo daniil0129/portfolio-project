@@ -1,0 +1,123 @@
+/*Medium devices*/
+* {
+    transition: all .2s;
+}
+@media screen and (min-width: 769px) and (max-width: 991px){
+    header form {
+        margin-right: 10px;
+    }
+    header img {
+        margin-left: 10px;
+    }
+    #header_nav {
+        margin-bottom: 25px;
+    }
+    #content_text {
+        padding-right: 5px;
+    }
+    section img{
+        width: 45%;
+        display: block;
+        margin-left: 20%;
+    }
+    section > figure + figure{
+        float: left;
+        margin-left: 20%;
+        margin-top: 10px;
+    }
+    section > h2 {
+        float: left;
+        margin-top: 10px;
+        width: 99%;
+    }
+    .team-row figure {
+       float: left;
+       margin-left: 0;
+    }
+    .team-row figure img {
+        height: 50%;
+    }
+    footer #footer-logo {
+        margin-right: 5px;
+    }
+    #twitter {
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 768px){
+    header form {
+        margin-right: 10px;
+    }
+    header img {
+        margin-left: 10px;
+    }
+    #nav_header {
+        display: none;
+    }
+    header #header_nav #touch_menu {
+        display: block;
+    }
+    #nav_header {
+        float: left;
+        margin-bottom: 10px;
+    }
+	
+	header #header_nav ul {
+		z-index: 1000;
+		position: absolute;
+	}
+	
+    header #header_nav ul li {
+        width: 100%;
+        float: none;
+		margin-top: 0;
+    }
+    nav {
+        width: 100%;
+    }
+    nav ul li{
+        text-align: center;
+    }
+    #content {
+        width: 100%;
+        clear: both;
+        float: left;
+    }
+    #content_text {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    #content img {
+        margin-left: 15px;
+    }
+    .team-row figure img {
+        height: 100%;
+    }
+    #footer > div+div {
+        margin-left: 0;
+    }
+    #twitter {
+        float: left;
+        width: 100%;
+    }
+    #twitter p, #twitter h3, #twitter a, #sitemap h3, #sitemap a, #social h3, #social a, #footer-logo p {
+        margin-left: 5px;
+    }
+    #sitemap {
+        float: left;
+        width: 100%;
+    }
+    #footer-logo {
+        width: 100%;
+        float: left;
+    }
+    #footer-logo img {
+        float: right;
+        margin-right: 5px;
+    }
+    #social {
+        float: left;
+        width: 100%;
+    }
+}
