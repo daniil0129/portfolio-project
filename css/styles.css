@@ -187,17 +187,18 @@ body .center-in-section {
 	align-content: center
 }
 body .download-cv {
-	width: 100px;
-	height: 35px;
-	margin-right: 10px;
-	-webkit-border-radius: 3px;
-	border-radius: 3px;
-	border: 1px solid rgba(255, 255, 255, .5);
-	color: #fff;
-	text-decoration: none;
-	text-align: center;
-	-webkit-transition: all ease .3s;
-	transition: all ease .3s
+	display: none;
+/* 	width: 100px;
+height: 35px;
+margin-right: 10px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+border: 1px solid rgba(255, 255, 255, .5);
+color: #fff;
+text-decoration: none;
+text-align: center;
+-webkit-transition: all ease .3s;
+transition: all ease .3s */
 }
 body #preloader_preload, body header {
 	position: fixed;
@@ -205,10 +206,10 @@ body #preloader_preload, body header {
 	width: 100%;
 	left: 0
 }
-body .download-cv:hover {
+/* body .download-cv:hover {
 	border: 1px solid #67cc82;
 	color: #67cc82
-}
+} */
 body .button-content-position {
 	display: -webkit-box;
 	display: -webkit-flex;
