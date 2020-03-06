@@ -1,0 +1,260 @@
+/* global */
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+.wrapper{
+	font-family: 'Montserrat', sans-serif;
+	color: #575757;
+	font-size: calc(1vw + 0.3em);
+	box-sizing: border-box;	
+}
+.container{
+	margin: 0 auto;
+	max-width: 1200px;
+	padding: 0 15px;
+}
+
+.title{
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+}
+/* our-project */
+
+.our-projects {
+	background-image: url(../img/bg.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+}
+.projects-view__title{
+	line-height: calc(1vw + 3em);
+}
+.slider{
+	position: relative;
+	padding: 0 30px;
+}
+.slider__item{
+	overflow: hidden;
+	margin: 0 14px;
+	display: flex;
+	justify-content: center;
+}
+.slider__img{
+	object-fit: cover;
+	overflow: hidden;
+}
+
+/* project-tour */
+
+.project-tour__title_indent{
+	line-height: calc(1vw + 2.5em);
+}
+
+.project-tour__row{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.project-tour__text{
+	font-size: calc(1vw + 0.8em);
+	font-weight: bold;
+	color: #fff;
+
+}
+.project-tour__desc{
+	width: 50%;
+	text-align: center;
+	margin-bottom: calc(1vw + 1.5em);
+}
+.form{
+	background: #fff;
+	display: flex;
+	flex-direction: column;
+	padding: 2vw;
+	width: 60vw;
+	max-width: 546px;
+}
+.form__text{
+	font-size: 2vw;
+
+}
+.form__text-in{
+	border: none;
+	padding: 1vw;
+	background: #efefef;
+	margin-bottom: 2vw;
+}
+
+.button{
+	border: none;
+	background: #e64839;
+	border-bottom-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+	border-top-right-radius: 50px;
+	border-top-left-radius: 50px;
+	padding: 1.5vw 4vw;
+	margin-top: 3vw;
+	cursor: pointer;
+}
+.button:hover{
+	background: #a45851;
+}
+.form__text-btn{
+	color: #fff;
+	font-size: 2vw;
+}
+.project-tour__form{
+	margin-bottom: 5vw;
+}
+.checkbox{
+	display: flex;
+	align-items: center;
+	margin-top: 20px;
+}
+.chb{
+	display: none;
+}
+.chb:checked~.custom-checkbox:after{
+	background-color: #e64839;
+}
+.custom-checkbox{
+	position: relative;
+	position: absolute;
+	display: block;
+	width: 2vw;
+	height: 2vw;
+	margin-right: 20px;
+	border: 1px solid #e64839;
+}
+.custom-checkbox:after{
+	content: '';
+	position: absolute;
+	top: 4px;
+	left: 4px;
+	right: 4px;
+	bottom: 4px;
+}
+.checkbox-text {
+	margin-left: 3vw;
+}
+
+/*helps title*/
+
+.helps__title{
+	color: #000;
+	line-height: calc(1vw + 3em);
+}
+.helps__body{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.helps__item{
+	display: flex;
+	flex-direction: column;
+	width: 50vw;
+}
+.helps__item-txt{
+	text-align: center;
+	padding: 20px 60px;
+}
+.helps__item-img1{
+	background: url("../img/infoImg1.jpg");
+}
+.helps__item-img2{
+	background: url("../img/infoImg2.jpg");
+}
+.helps__item-img3{
+	background: url("../img/infoImg3.jpg");
+}
+.helps__item-img{
+	width: 100%;
+	height: 250px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.helps__img{
+	object-fit: cover;
+}
+
+/*media*/
+
+@media (min-width: 860px) {
+	.project-tour__row{
+		flex-direction: row;
+	}
+	.form{
+		width: 38vw;
+	}
+	.project-tour__text{
+		display: inline-block;
+		text-align: right;
+		margin: -100px 50px 0 230px;
+	}
+	.helps__body{
+		flex-direction: row;
+	}
+	.helps__item:not(:last-child){
+		margin-right: 1vw;
+	}
+	.helps__txt{
+		font-size: 1.2vw;
+	}
+	.helps__item-txt{
+		padding: 20px 10px;
+	}
+	.form__text{
+		font-size: 1.5vw;
+	}
+	.button{
+		font-size: 1.6vw;
+	}
+	.checkbox-text{
+		font-size: 1.3vw;
+	}
+}
+@media (min-width: 1190px) {
+	.title{
+		font-size: 36px;
+	}
+	.project-tour__text{
+		font-size: 36px;
+	}
+	.form__text{
+		font-size: 16px;
+	}
+	.checkbox-text{
+		font-size: 16px;
+	}
+	.button{
+		font-size: 16px;
+		font-weight: bold;
+	}
+	.custom-checkbox{
+		display: block;
+		width: 1vw;
+		height: 1vw;
+	}
+	.helps__txt{
+		font-size: 16px;
+	}
+	.form{
+		padding: 25px;
+		width: 560px;
+		max-width: 546px;
+	}
+	.form__text-in{
+		padding: 25px;
+		background: #efefef;
+		margin-bottom: 20px;
+	}
+	.button{
+		padding: 21px;
+		margin-top: 40px;
+	}
+
+}
